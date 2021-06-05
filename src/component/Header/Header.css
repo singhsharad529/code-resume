@@ -24,6 +24,7 @@
     height: 70vh;
     border-bottom: 4px solid white;
     display: block;
+    
     /* background-size: 100%; */
     background-size: cover;
     background-position: center center;
@@ -53,13 +54,37 @@
     margin-top: 0px;
 }
 
-@media only screen and (max-width:786) {
-    .head_cot h1 {
-        font-size: 4rem;
-    }
-
+@media  screen and (max-width: 786px) {
+    
+    
   .head_img{
   left: 30%;
 
 }
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .head_cot {
+     
+        padding: 40px;
+        padding-bottom: 90px;
+        
+    }
+
+  
+}
+
+
+@media screen and (max-width: 340px) {
+    
+    .head_cot {
+     
+        padding: 90px;
+       
+        
+    }
+
+  
 }

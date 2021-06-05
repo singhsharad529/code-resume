@@ -15,6 +15,7 @@ const Header = (props) => {
                 <h1>Michael johnson</h1>
                 <p>Graphic and Web designer</p>
                 <img src={user_image} className="head_img" style={{width:200 ,height:200}}/>
+                
             </div>
         </div>
     </div>
