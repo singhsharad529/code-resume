@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+    margin:0 auto;
+}
+.l{
+    position: relative;
+}
+.ll{
+    height: auto;
+    margin-left: auto;
+    margin-left: auto;
+    display: block;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+    
+
+}
+.container::before{
+    position: absolute;
+    top:0;
+    left:0;
+    display: block;
+    width:100%;
+    height: 10px;
+    background-color: transparent;
+    background-image: radial-gradient(currentColor 1px, transparent 1px);
+    background-position: 1px 1px;
+    background-size: 5px 5px;
+    content:"";
+    opacity: .2;
+}
+.side1{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width:50%;
+   padding-right: 150px;
+    align-items: flex-start;
+    color: #ec7c2d;
+    
+    
+}
+
+.common{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    float: left;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    align-items: baseline;
+}
+h1{
+    display: block;
+    font-size: 2.5rem;
+   font-weight: 700;
+   margin-bottom: 0;
+   text-align: left;
+   text-transform: uppercase;
+}
+
+p{
+    text-align: left;
+}
+.icon{
+    margin-right: 30px;
+    font-size: 3rem;
+    margin-bottom: -6px;
+}
+ h3{
+    margin-bottom: 0;
+}
+h3 + p{
+    margin-top: 0;
+}
+hr { border: 1px solid #ec7c2d;
+    width:100%; height:2px; 
+    background:#ec7c2d;
+ box-shadow:none; 
+color:#ec7c2d}
+ 
+
+.side2{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width:50%;
+    
+    align-items: flex-start;
+    color: #ec7c2d;
+    
+}
+
+.cot{
+    display:flex;
+    height: auto;
+    margin: 0 auto;
+    justify-content: end;
+}
+
+.trophy{
+    margin-bottom: -2px;
+}
+/* timeline css */
+
+.hobbies_icon{
+    display: flex;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.icon_name{
+    font-size: 1rem;
+}
+@media only screen and (max-width:798px){
+    .container{
+        flex-direction: column;
+    }
+    .side1{
+        width:100%;
+        max-width:100%;
+        padding-right: 0;
+        
+    }
+    .side2{
+        width: 100%;
+       max-width:100%
+    }
+    
+}
