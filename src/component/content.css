@@ -252,7 +252,7 @@ color:#ec7c2d}
 }
 
 
-@media only screen and (max-width:358px){
+@media  screen and (max-width:420px){
 
     .ll{
         width: 100%;
@@ -262,6 +262,18 @@ color:#ec7c2d}
 
 }
 
+
+@media   screen and (max-width:400px){
+
+    .ll{
+        width: 100%;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+
+}
+
+ 
 
  
   

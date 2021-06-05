@@ -149,7 +149,7 @@ color:#ec7c2d}
 
 }
 
-@media only screen and (max-width:798px){
+@media  screen and (max-width:798px){
     .outerContainer{
          
         margin-top: -70px;
@@ -175,7 +175,7 @@ color:#ec7c2d}
 
 
 
-@media only screen and (max-width:428px){
+@media  screen and (max-width:428px){
 
     .outerContainer{
         width: 100%;
@@ -185,12 +185,22 @@ color:#ec7c2d}
 
 }
 
-
-@media only screen and (max-width:358px){
+@media  screen and (max-width:420px){
 
     .outerContainer{
         width: 100%;
         margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+
+@media   screen and (max-width:400px){
+
+    .outerContainer{
+        width: 100%;
+        margin-left: 35px;
         margin-right: 20px;
     }
 
