@@ -15,25 +15,70 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
-    margin-top: -155px;
+    margin-top: -135px;
 }
 .firstContainer{
     margin: 0 auto;
     display: flex;
     margin-top: 150px;
-    
+ 
+}
+
+.head_image{
+    border-radius: 6px;
+}
+
+.containerInside2{
+    width: 100%;
+    display: flex;
 
 }
- 
-.side1Container{
+
+
+.startName{
     display: flex;
     flex-direction: column;
     max-width: 50%;
     width:50%;
+    
+    align-items: flex-start;
+    color: #000066;
+   
+  
+}
+
+.mainDetails{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width:50%;
+    
+    color: #000066;
+    margin-top: 18px;
+}
+
+.mainDetails p{
+   
+    
+    text-align: right;
+}
+
+ 
+
+
+ 
+
+ 
+.side1Container{
+    display: flex;
+    flex-direction: column;
+    max-width: 2%;
+    width:2%;
    padding-right: 150px;
    margin-right: 20px;
     align-items: flex-start;
     color: #000066;
+    padding-top: 38px;
   
 }
 
@@ -51,31 +96,33 @@ body{
     display: flex;
     align-items: baseline;
 }
-h1{
-    display: block;
-    font-size: 2.5rem;
-   font-weight: 700;
-   margin-bottom: 0;
-   text-align: left;
-   text-transform: uppercase;
+
+.name{
+    font-size: 30px;
+    margin-bottom: -10px;
+
+
+}
+
+.designation{
+    font-size: 20px;
+    
 }
 
 p{
-    text-align: left;
+    
+    margin-bottom: 0px;
 }
+
+
+
 .containerIcon{
     margin-right: 18px;
     margin-left: 10px;
     color:#ec7c2d;
     
 }
- h3{
-    margin-bottom: 0;
-    
-}
-h3 + p{
-    margin-top: 0;
-}
+ 
 
 .containerLine{
     margin-top: 40px;
@@ -92,8 +139,8 @@ color:#ec7c2d}
 .side2Container{
     display: flex;
     flex-direction: column;
-    max-width: 50%;
-    width:50%;
+    max-width: 100%;
+    width:100%;
     
     align-items: flex-start;
     color: #000066;
@@ -149,10 +196,15 @@ color:#ec7c2d}
 
 }
 
+
+
+
+ 
+
 @media  screen and (max-width:798px){
     .outerContainer{
          
-        margin-top: -70px;
+        margin-top: -140px;
     }
     .firstContainer{
         flex-direction: column;
@@ -167,6 +219,27 @@ color:#ec7c2d}
         width: 100%;
        max-width:100%
     }
+
+    .containerInside2{
+        flex-direction: column;
+    }
+    .startName{
+        width:100%;
+        max-width:100%;
+        padding-right: 0;
+        
+    }
+    .mainDetails{
+        width: 100%;
+       max-width:100%;
+       margin-left: -20px;
+    }
+    .mainDetails p{
+       text-align: left;
+    }
+
+
+     
     .containerIcon{
         margin-left: 20px;
     }

@@ -7,7 +7,7 @@ import MainDetails from "./component/headerDetails";
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
      <MainDetails/>
     <Content/>
     </div>
