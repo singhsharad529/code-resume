@@ -69,16 +69,20 @@ const Content = (props) => {
                </div>
               
               <hr/>
-                 <div className="hobbies_icon">
-                    <div className="i"> <FaCamera/>
-                    <span className="icon_name">Camera</span>
-                    </div>
-                    <div className="i"><FaMusic/><span className="icon_name">Camera</span></div>
-                    <div className="i">  <FaGamepad/><span className="icon_name">Videogame</span></div>
-                    <div className="i"><FaTheaterMasks/><span className="icon_name">Theater</span></div>
-                    <div className="i"><FaBook/><span className="icon_name">Books</span></div>
-                    <div className="i"><FaPlane/><span className="icon_name">Travel</span></div>
-                 </div>
+                  
+                 <ul className="hobbiesList">
+                <li>
+                <h3>Singing</h3>
+ 
+                </li>
+                <li>
+                <h3>Dancing</h3>
+                </li>
+                <li>
+                <h3>Coding</h3>
+                </li>
+              </ul>
+                  
              </div>
             
    
@@ -89,7 +93,7 @@ const Content = (props) => {
              <div className="side2">
     {/* skills */}
     <div className="common Skills">
-               <div className="mainHeading">
+               <div className="mainHeading ">
                <h1><FaChartBar className="icon"/>
                  Skills</h1>
                </div>
@@ -158,10 +162,21 @@ const Content = (props) => {
             </div>
          
               <hr/>
-                 <h3>WEB DEVELOPERS OF THIS YEAR</h3>
+
+              <ul className="rewardList">
+                <li>
+                <h3>WEB DEVELOPERS OF THIS YEAR</h3>
                  <p>Abc Creative Studio / 2018</p>
-                 <h3>WEB DEVELOPERS OF THIS YEAR</h3>
+
+                </li>
+                <li>
+                <h3>WEB DEVELOPERS OF THIS YEAR</h3>
                  <p>Abc Creative Studio / 2018</p>
+
+                </li>
+              </ul>
+              
+             
              </div>
     
 

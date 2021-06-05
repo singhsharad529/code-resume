@@ -26,6 +26,7 @@ const MainDetails = (props) => {
                     <hr className="containerLine" />
 
                 </div>
+                
 
                 <div className="side2Container">
                     <div className="common education">
